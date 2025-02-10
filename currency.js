@@ -1,4 +1,4 @@
-const API_KEY = "yourApikey"; // Replace with your actual API key
+const API_KEY = "a272118be23d83b2f10fb13a"; // Replace with your actual API key
 const BASE_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/latest`;
 
 // Select elements
