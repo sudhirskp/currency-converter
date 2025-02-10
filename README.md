@@ -1,5 +1,7 @@
 # currency-converter
 
+![Screenshot](currency.png)
+
 A simple web application to convert currencies and display exchange rates using a free API. The application also displays the flags of the selected currencies and a graph of historical exchange rates.
 
 ## Features
