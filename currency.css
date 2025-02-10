@@ -1,0 +1,128 @@
+/* currency.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+   text-shadow: lightcyan 0 0 100px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0, 0.1) 0px 0px 5.419px, 
+    rgb(0, 0, 0, 0.1) 0px 0px 5.954px,
+    rgb(0, 0, 0, 0.1) 0px 0px 5.473px,
+    rgb(0, 0, 0, 0.1) 0px 0px 5.736px,
+    rgb(0, 0, 0, 0.1) 0px 0px 5.4961px,
+    rgb(0, 0, 0, 0.1) 0px 0px 5.2481px;
+}
+
+.amount, .dropdown {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.from, .to {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.from img, .to img {
+    margin-right: 10px;
+}
+
+.select {
+    flex-grow: 1;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.fa-arrow-right-arrow-left {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    margin-left: 300px;
+    font-size: 24px;
+    color: #4CAF50;
+    transform: rotate(90deg); /* Rotate the arrow by 90 degrees */
+}
+
+
+.btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn button {
+    background-color: #4CAF50; 
+    border: darkgreen;
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.btn button:hover {
+    background-color: darkgreen;
+}
+
+.exchangerate {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px; 
+    color: #333;
+    display: flex;
+}
+
+
+.exchangerate p {
+    margin: 0;
+    padding: 10px;
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+    display: inline-block;
+}
