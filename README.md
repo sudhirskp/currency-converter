@@ -42,3 +42,5 @@ A simple web application to convert currencies and display exchange rates using 
 3. Click the "Convert" button to see the converted amount and the exchange rate.
 4. The flags of the selected currencies will be displayed.
 5. A graph of historical exchange rates will be shown below the conversion result.
+
+   ##Live Link : https://sudhirskp.github.io/currency-converter/
